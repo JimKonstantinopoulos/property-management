@@ -1,0 +1,19 @@
+[project]
+name = "property-management"
+version = "0.1.0"
+description = "AI-powered Airbnb listing audit tool for property managers"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.39.0",
+    "playwright>=1.48.0",
+    "fpdf2>=2.8.0",
+    "python-dotenv>=1.0.0",
+    "Pillow>=10.0.0",
+    "httpx>=0.27.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+]

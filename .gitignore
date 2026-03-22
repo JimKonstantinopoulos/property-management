@@ -1,0 +1,36 @@
+# Environment & secrets
+.env
+.venv/
+venv/
+env/
+
+# Claude Code local settings
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Output (generated reports)
+output/*.pdf
+output/*.mp4
+
+# Cached benchmark data (users generate their own)
+data/*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Client photos (not needed in repo)
+*.jpg
+*.jpeg
+*.png
+!src/reports/templates/*.png
